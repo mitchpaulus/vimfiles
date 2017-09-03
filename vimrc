@@ -2,10 +2,15 @@
 set nocompatible  " be iMproved, required for Vundle
 filetype off    " required for Vundle.
 
-set rtp+=~/vimfiles/bundle/Vundle.vim "This is for Windows Vundle.
-set rtp+=~/.vim/bundle/Vundle.vim "This is for Ubuntu/Linux Vundle.
+if has('win32')
+    set rtp+=~/vimfiles/bundle/Vundle.vim "This is for Windows Vundle.
+    call vundle#begin('~/vimfiles/bundle')
+endif
 
-call vundle#begin('~/vimfiles/bundle')
+if has('unix')
+    set rtp+=~/.vim/bundle/Vundle.vim "This is for Ubuntu/Linux Vundle.
+    call vundle#begin()
+endif
 
 Plugin 'easymotion/vim-easymotion'
 Plugin 'ctrlpvim/ctrlp.vim'
