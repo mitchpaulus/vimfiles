@@ -17,6 +17,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'lervag/vimtex'
 Plugin 'godlygeek/tabular'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'sickill/vim-monokai'
 Plugin 'SirVer/ultisnips'
 Plugin 'scrooloose/nerdtree'
 Plugin 'mitchpaulus/latex-plus'
@@ -43,6 +44,8 @@ map <space> <leader>
 noremap <Leader>w :w<CR>
 " Fast quitting
 noremap <leader>q :q<cr>
+" Really quit
+noremap <leader>Q :q!<cr>
 " Yank line without newlines
 nnoremap yl ^y$
 " Delete line without newlines
@@ -313,8 +316,10 @@ endfunction
 
 syntax enable
 let g:solarized_termcolors=256
-set background=dark
+let g:solarized_termtrans=0
+"set background=light
 colorscheme solarized
+"colorscheme monokai
 
 " Vimtex {{{2
 "For vimtex
