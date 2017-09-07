@@ -410,6 +410,7 @@ iabbrev accelearted accelerated
 iabbrev aceptable acceptable
 iabbrev accompolish accomplish
 iabbrev Accordiing According
+iabbrev accoriding according
 iabbrev acutal actual
 iabbrev actucally actually
 iabbrev dadditional additional
@@ -728,6 +729,7 @@ iabbrev hikstorical historical
 iabbrev HOliddays Holidays
 iabbrev horizonatal horizontal
 iabbrev HOwever However
+iabbrev Howerver However
 iabbrev humdity humidity
 iabbrev humidty humidity
 iabbrev Huniting Hunting
@@ -761,6 +763,7 @@ iabbrev intitiating initiating
 iabbrev inelt inlet
 iabbrev linet inlet
 iabbrev insentive insensitive
+iabbrev Institutue Institute
 iabbrev insturction instruction
 iabbrev Integratign Integrating
 iabbrev INterface Interface
@@ -782,6 +785,7 @@ iabbrev itmes items
 iabbrev jsut just
 iabbrev ujst just
 iabbrev dkey key
+iabbrev Kimal Kimla 
 iabbrev lable label
 iabbrev leanring learning
 iabbrev LIbrary Library
@@ -821,6 +825,7 @@ iabbrev MOdified Modified
 iabbrev modifeid modified
 iabbrev moels moles
 iabbrev moels moles
+iabbrev montiors monitors
 iabbrev mroe more
 iabbrev moter motor
 iabbrev namign naming
@@ -941,6 +946,7 @@ iabbrev reasonlable reasonable
 iabbrev reasonalbly reasonably
 iabbrev recieve receive
 iabbrev recoginition recognition
+iabbrev referecne reference
 iabbrev refrigeratant refrigerant
 iabbrev refigerator refrigerator
 iabbrev reagrds regards
@@ -974,6 +980,7 @@ iabbrev smaple sample
 iabbrev sampel sample
 iabbrev satifies satisfies
 iabbrev asy say
+iabbrev schmatic schematic
 iabbrev socpe scope
 iabbrev sedond second
 iabbrev selct select
@@ -986,6 +993,7 @@ iabbrev Sereis Series
 iabbrev sereis series
 iabbrev setpoinut setpoint
 iabbrev setpoing setpoint
+iabbrev seetup setup
 iabbrev sevearl several
 iabbrev shoudl should
 iabbrev shouuuld should
@@ -1262,9 +1270,11 @@ iabbrev wholeheardely wholeheartedly
 iabbrev widnow window
 iabbrev wiht with
 iabbrev wirth with
+iabbrev witha with a
 iabbrev owrk work
 iabbrev owkr work
 iabbrev WOrking Working
+iabbrev Wroking Working
 iabbrev woudl would
 iabbrev owuld would
 iabbrev zerio zero
