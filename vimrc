@@ -972,6 +972,8 @@ iabbrev respcet respect
 iabbrev respecdt respect
 iabbrev resutls results
 iabbrev retun return
+iabbrev Reveiew Review
+iabbrev Reveiew Review
 iabbrev rightt right
 iabbrev riese rise
 iabbrev Roayl Royal
