@@ -292,6 +292,7 @@ nnoremap <F5> :<c-u>GundoToggle<cr>
 " See http://stackoverflow.com/questions/19414193/regex-extract-string-not-between-two-brackets
 vnoremap <leader>tf :<c-u>'<,'>Tab /[^\\]\zs&\<Bar>\({[^}{]*\)\@<!\(\\\\\)\([^{}]*}\)\@!/<cr>
 nnoremap <leader>tf :<c-u>Tab /[^\\]\zs&\<Bar>\({[^}{]*\)\@<!\(\\\\\)\([^{}]*}\)\@!/<cr>
+nnoremap <leader>t<Bar> :Tab /<Bar>/<cr>
 
 " Fugitive {{{2
 " Fugitive mappings for status, add, and commit.
