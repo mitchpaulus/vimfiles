@@ -31,8 +31,15 @@ Plugin 'mitchpaulus/vim-tex2text'
 call vundle#end()            " required for Vundle
 filetype plugin indent on    " required for Vundle
 
-let g:UltiSnipsSnippetDir = "~/vimfiles/UltiSnips"
-let g:UltiSnipsSnippetDirectories = [$HOME.'/vimfiles/UltiSnips', 'UltiSnips']
+if has('unix')
+    let g:UltiSnipsSnippetDir = "~/.vim/UltiSnips"
+endif
+
+if has('win32')
+    let g:UltiSnipsSnippetDir = "~/vimfiles/UltiSnips"
+    let g:UltiSnipsSnippetDirectories = [$HOME.'/vimfiles/UltiSnips', 'UltiSnips']
+endif
+
 nnoremap <leader>ue :UltiSnipsEdit<cr>
 
 " General Mappings {{{1
@@ -505,6 +512,7 @@ iabbrev buildign building
 iabbrev Buildign Building
 iabbrev buikdlign building
 iabbrev buliding building
+iabbrev buiilding building
 iabbrev buioldings buildings
 iabbrev buildigns buildings
 iabbrev buiolgings buildings
@@ -590,6 +598,7 @@ iabbrev correspoinds corresponds
 iabbrev coiuld could
 iabbrev coures course
 iabbrev credites credits
+iabbrev creiterion criterion
 iabbrev criticial critical
 iabbrev curvativure curvature
 iabbrev cusomt custom
@@ -790,6 +799,7 @@ iabbrev Kimal Kimla
 iabbrev lable label
 iabbrev leanring learning
 iabbrev LIbrary Library
+iabbrev librayr library
 iabbrev olimitations limitations
 iabbrev lienar linear
 iabbrev liquied liquid
@@ -831,6 +841,7 @@ iabbrev mroe more
 iabbrev moter motor
 iabbrev namign naming
 iabbrev enearsets nearest
+iabbrev enearest nearest
 iabbrev NEedc Need
 iabbrev neagagive negative
 iabbrev n3egative negative
@@ -1234,6 +1245,7 @@ iabbrev underreprsented underrepresented
 iabbrev udnerstand understand
 iabbrev understandiung understanding
 iabbrev uint unit
+iabbrev unti unit
 iabbrev unjits units
 iabbrev untis units
 iabbrev uints units
