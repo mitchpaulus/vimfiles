@@ -92,6 +92,10 @@ function! s:ChangePWD()
     pwd
 endfunction
 
+" Use par for formatting paragraphs on unix.
+if has('unix')
+    set formatprg=par\ -w72
+endif
 
 "Make it easy to edit the vimrc file. From
 "http://learnvimscriptthehardway.stevelosh.com/chapters/07.html.
