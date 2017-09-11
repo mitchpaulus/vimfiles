@@ -234,6 +234,7 @@ set cmdheight=2                " Make the command window height 2 to avoid the h
 set history=1000               " Remember up to 1000 ex commands.
 set lazyredraw
 set ttyfast
+set spelllang=en_us
 " set guifont=Consolas:h11:cANSI:qDRAFT                           " Set Font to Consolas.
 " set guifont=Inconsolata\ 12                                     " Set Font to Inconsolata
 
