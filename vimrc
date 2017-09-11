@@ -130,9 +130,6 @@ nnoremap <leader>cw :%s/\v\s+$//<cr>
 nnoremap S ddO
 nnoremap cc S
 
-" Thanks SJL, default behavior of <cr> is useless
-nnoremap <cr> o<esc>
-
 nnoremap [q :cprevious<CR>
 nnoremap ]q :cnext<CR>
 nnoremap [Q :cfirst<CR>
@@ -156,6 +153,7 @@ cnoremap <C-f> <Right>
 "http://learnvimscriptthehardway.stevelosh.com/chapters/10.html
 inoremap jk <esc>
 nnoremap <TAB> }
+
 " Quick mappings for the beginning and ends of lines
 noremap H ^
 noremap L $
