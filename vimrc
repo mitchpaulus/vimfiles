@@ -167,7 +167,7 @@ xnoremap # :<C-u>call <SID>VSetSearch()<CR>?<C-R>=@/<CR><CR>
 "Clear the previous search (c[lear] h[ighlight])
 nnoremap <leader>ch :nohlsearch<cr>
 
-nnoremap <leader>ss :set spell!<cr>
+nnoremap <leader>ss :set spell!<cr>:echo "Spell is now " . &spell<cr>
 " Flip background color setting, from http://tilvim.com/2013/07/31/swapping-bg.html.
 nnoremap <leader>bg :let &background = ( &background == "dark"? "light" : "dark" )<CR>
 
@@ -471,6 +471,7 @@ iabbrev approximatley approximately
 iabbrev approximatation approximation
 iabbrev arbitralily arbitrarily
 iabbrev arbirary arbitrary
+iabbrev Artifical Artificial
 iabbrev aas as
 iabbrev ascpects aspects
 iabbrev assignead assigned
@@ -501,6 +502,7 @@ iabbrev balnaces balances
 iabbrev basleines baselines
 iabbrev Bascially Basically
 iabbrev becuase because
+iabbrev beginnign beginning
 iabbrev beign being
 iabbrev besdies besides
 iabbrev betwen between
@@ -538,6 +540,7 @@ iabbrev certificaiton certification
 iabbrev chnage change
 iabbrev chagnes changes
 iabbrev Chatper Chapter
+iabbrev cahpter chapter
 iabbrev cahractersictic characteristic
 iabbrev childern children
 iabbrev cohsen chosen
@@ -556,6 +559,7 @@ iabbrev Commerical Commercial
 iabbrev commissiongin commissioning
 iabbrev commisioning commissioning
 iabbrev Commisisiong Commissioning
+iabbrev commissionign commissioning
 iabbrev ocmmon common
 iabbrev commonlky commonly
 iabbrev competiting competing
@@ -574,6 +578,7 @@ iabbrev ocnstant constant
 iabbrev constatn constant
 iabbrev constatn constant
 iabbrev Constatn Constant
+iabbrev ocnsatnt constant
 iabbrev contianer container
 iabbrev Conntainer Container
 iabbrev continaer container
@@ -586,6 +591,7 @@ iabbrev Contionous Continuous
 iabbrev contributrion contribution
 iabbrev contirbutors contributors
 iabbrev contorl control
+iabbrev Cotnrl Control
 iabbrev Contrls Controls
 iabbrev ocntrosl controls
 iabbrev convensition convention
@@ -601,6 +607,7 @@ iabbrev coiuld could
 iabbrev coures course
 iabbrev credites credits
 iabbrev creiterion criterion
+iabbrev crediterion criterion
 iabbrev criticial critical
 iabbrev curvativure curvature
 iabbrev cusomt custom
@@ -610,6 +617,7 @@ iabbrev cylce cycle
 iabbrev Dallsa Dallas
 iabbrev datapoints data points
 iabbrev decreaesed decreased
+iabbrev decreasees decreases
 iabbrev fdefine define
 iabbrev definned defined
 iabbrev dnesity density
@@ -623,6 +631,7 @@ iabbrev deriviatives derivatives
 iabbrev descentdants descendants
 iabbrev descritpion description
 iabbrev desing design
+iabbrev Desing Design
 iabbrev detial detail
 iabbrev detailede detailed
 iabbrev detials details
@@ -659,6 +668,7 @@ iabbrev enenrgy energy
 iabbrev Enginereing Engineering
 iabbrev egineers engineers
 iabbrev entier entire
+iabbrev entrace entrance
 iabbrev entorpy entropy
 iabbrev enviornment environment
 iabbrev eqaul equal
@@ -676,10 +686,12 @@ iabbrev eestimate estimate
 iabbrev estitamed estimated
 iabbrev esitmating estimating
 iabbrev esitimation estimation
+iabbrev Eruopean European
 iabbrev evaluateed evaluated
 iabbrev evalueaiton evaluation
 iabbrev everyting everything
 iabbrev exmaple example
+iabbrev execture execute
 iabbrev exectued executed
 iabbrev exericse exercise
 iabbrev exercieses exercises
@@ -849,6 +861,8 @@ iabbrev neagagive negative
 iabbrev n3egative negative
 iabbrev neighbort neighbor
 iabbrev neightbor neighbor
+iabbrev Nueral Neural
+iabbrev nomencalture nomenclature
 iabbrev nnormal normal
 iabbrev NOtes Notes
 iabbrev nozle nozzle
@@ -937,6 +951,7 @@ iabbrev probelm problem
 iabbrev prfoceed proceed
 iabbrev Processs Process
 iabbrev proces process
+iabbrev prodcue produce
 iabbrev prodcued produced
 iabbrev produciton production
 iabbrev prodcuts products
@@ -1063,6 +1078,7 @@ iabbrev Streches Stretches
 iabbrev striclty strictly
 iabbrev stye style
 iabbrev styel style
+iabbrev sytle style
 iabbrev sytles styles
 iabbrev subcalculation sub calculation
 iabbrev substantce substance
@@ -1253,6 +1269,7 @@ iabbrev untis units
 iabbrev uints units
 iabbrev lunits units
 iabbrev unikts units
+iabbrev useufl useful
 iabbrev usefullness usefulness
 iabbrev usingn using
 iabbrev uitlilty utility
