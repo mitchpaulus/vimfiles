@@ -444,6 +444,7 @@ iabbrev analyis analysis
 iabbrev analyiss analysis
 iabbrev analyiss analysis
 iabbrev analyiss analysis
+iabbrev anlaysis analysis
 iabbrev anaylytically analytically
 iabbrev alnaalyze analyze
 iabbrev anscestors ancestors
@@ -497,6 +498,7 @@ iabbrev avaiable available
 iabbrev availbe available
 iabbrev availbvle available
 iabbrev avaialble available
+iabbrev availbabele available
 iabbrev Backgroudn Background
 iabbrev balnace balance
 iabbrev balnaces balances
@@ -636,6 +638,7 @@ iabbrev Desing Design
 iabbrev detial detail
 iabbrev detailede detailed
 iabbrev detials details
+iabbrev determiniation determination
 iabbrev determein determine
 iabbrev determineing determining
 iabbrev Developement Development
@@ -788,6 +791,7 @@ iabbrev intitiating initiating
 iabbrev inelt inlet
 iabbrev linet inlet
 iabbrev insentive insensitive
+iabbrev insensivitve insensitive
 iabbrev Institutue Institute
 iabbrev insturction instruction
 iabbrev Integratign Integrating
@@ -964,6 +968,7 @@ iabbrev porportion proportion
 iabbrev propsoed proposed
 iabbrev propsed proposed
 iabbrev quaklity quality
+iabbrev Quantificaitons Quantifications
 iabbrev qunaittites quantities
 iabbrev questionaire questionnaire
 iabbrev quesitons questions
