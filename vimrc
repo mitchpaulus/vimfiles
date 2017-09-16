@@ -316,11 +316,6 @@ nnoremap <leader>gc :Gcommit<cr>
 nnoremap <leader>gph :Gpush<cr>
 nnoremap <leader>gpl :Gpull<cr>
 
-
-
-
-
-
 " Search for the current visual selection using '*'. See pg. 212 of Practical Vim
 function! s:VSetSearch()
     let temp = @s
@@ -354,16 +349,11 @@ let g:ctrlp_by_filename = 1
 " finger
 nnoremap <c-y> :CtrlPBuffer<cr>
 
-
-
-
 " MISC {{{1
 
 "This is to make sure that when you first enter a file
 "you don't get a whole bunch of highlighting.
 nohlsearch
-
-
 
 " FileType AutoCmd Mappings {{{1
 function! s:MakeHeading(replaceCharacter)
