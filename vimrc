@@ -389,7 +389,7 @@ autocmd!
 " make a header 1 line, deleting trailing whitespace first.
 autocmd FileType markdown nnoremap <silent> <leader>h1 :<c-u>call <SID>MakeHeading("=")<cr>
 autocmd FileType markdown nnoremap <silent> <leader>h2 :<c-u>call <SID>MakeHeading("-")<cr>
-autocmd FileType markdown,tex set textwidth=72
+autocmd FileType markdown,tex,text set textwidth=72
 autocmd FileType tex inoremap %%% \% 
 autocmd FileType tex nnoremap [e ?\\begin{equation}<cr>:nohlsearch<cr>
 autocmd FileType tex nnoremap ]e /\\begin{equation}<cr>:nohlsearch<cr>
