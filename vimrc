@@ -437,8 +437,6 @@ iabbrev Althouugh Although
 iabbrev amoutn amount
 iabbrev analyis analysis
 iabbrev analyiss analysis
-iabbrev analyiss analysis
-iabbrev analyiss analysis
 iabbrev anlayiss analysis
 iabbrev anlaysis analysis
 iabbrev anaylytically analytically
@@ -462,7 +460,6 @@ iabbrev applky apply
 iabbrev appraoch approach
 iabbrev approahc approach
 iabbrev approriate appropriate
-iabbrev approximatled approximated
 iabbrev approximatled approximated
 iabbrev approimated approximated
 iabbrev approximatlye approximately
@@ -588,7 +585,6 @@ iabbrev condsidered considered
 iabbrev consistnely consistently
 iabbrev ocnstant constant
 iabbrev constatn constant
-iabbrev constatn constant
 iabbrev Constatn Constant
 iabbrev ocnsatnt constant
 iabbrev contianer container
@@ -624,7 +620,6 @@ iabbrev criticial critical
 iabbrev curvativure curvature
 iabbrev cusomt custom
 iabbrev cycel cycle
-iabbrev cylce cycle
 iabbrev cylce cycle
 iabbrev Dallsa Dallas
 iabbrev datapoints data points
@@ -745,7 +740,6 @@ iabbrev fullfill fulfill
 iabbrev funciton function
 iabbrev fucntion function
 iabbrev functdion function
-iabbrev functdion function
 iabbrev fundction function
 iabbrev fucntions functions
 iabbrev funcitons functions
@@ -798,7 +792,6 @@ iabbrev inddor indoor
 iabbrev infomration information
 iabbrev inforamtion information
 iabbrev informaiton information
-iabbrev informaitno information
 iabbrev informaitno information
 iabbrev inoformation information
 iabbrev inital initial
@@ -863,7 +856,6 @@ iabbrev Mniiimzie Minimize
 iabbrev mimnimum minimum
 iabbrev Mintue Minute
 iabbrev mintues minutes
-iabbrev mintues minutes
 iabbrev minxing mixing
 iabbrev maixing mixing
 iabbrev modle model
@@ -873,7 +865,6 @@ iabbrev mdoels models
 iabbrev modesl models
 iabbrev MOdified Modified
 iabbrev modifeid modified
-iabbrev moels moles
 iabbrev moels moles
 iabbrev montiors monitors
 iabbrev montly monthly
@@ -928,7 +919,6 @@ iabbrev aprameters parameters
 iabbrev apratemters parameters
 iabbrev partent parent
 iabbrev paretn parent
-iabbrev paretns parents
 iabbrev paretns parents
 iabbrev partail partial
 iabbrev aprtial partial
@@ -1040,7 +1030,6 @@ iabbrev respcet respect
 iabbrev respecdt respect
 iabbrev resutls results
 iabbrev retun return
-iabbrev Reveiew Review
 iabbrev Reveiew Review
 iabbrev rightt right
 iabbrev riese rise
@@ -1247,7 +1236,6 @@ iabbrev Threfore Therefore
 iabbrev Threrfore Therefore
 iabbrev therfore therefore
 iabbrev themal thermal
-iabbrev themal thermal
 iabbrev themral thermal
 iabbrev thermodynamcic thermodynamic
 iabbrev tehrmodynamic thermodynamic
@@ -1365,7 +1353,6 @@ iabbrev woudl would
 iabbrev owuld would
 iabbrev zerio zero
 iabbrev zoen zone
-iabbrev Zoen Zone
 iabbrev Zoen Zone
 iabbrev zonne zone
 iabbrev zoens zones
