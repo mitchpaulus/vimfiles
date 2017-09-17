@@ -239,8 +239,7 @@ set history=1000               " Remember up to 1000 ex commands.
 set lazyredraw
 set ttyfast
 set spelllang=en_us
-" set guifont=Consolas:h11:cANSI:qDRAFT                           " Set Font to Consolas.
-" set guifont=Inconsolata\ 12                                     " Set Font to Inconsolata
+set spellsuggest=10
 
 if has("gui_running")
   if has("gui_gtk2")
@@ -325,11 +324,13 @@ function! s:VSetSearch()
 endfunction
 
 syntax enable
-let g:solarized_termcolors=256
-let g:solarized_termtrans=0
-"set background=light
-colorscheme solarized
-"colorscheme monokai
+
+if has('gui_running') 
+    let g:solarized_termcolors=256
+    let g:solarized_termtrans=0
+    colorscheme solarized
+    "colorscheme monokai
+endif
 
 " Vimtex {{{2
 "For vimtex
@@ -1131,6 +1132,7 @@ iabbrev subsance substance
 iabbrev substituations substitutions
 iabbrev succesful successful
 iabbrev usch such
+iabbrev suggesitons suggestions
 iabbrev suppy supply
 iabbrev supplky supply
 iabbrev surroundsing surrounding
