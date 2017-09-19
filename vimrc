@@ -480,6 +480,7 @@ iabbrev Assitatn Assistant
 iabbrev assuem assume
 iabbrev Assuem Assume
 iabbrev assuemd assumed
+iabbrev assusmed assumed
 iabbrev assuems assumes
 iabbrev assumjption assumption
 iabbrev assumptiosn assumptions
@@ -511,6 +512,7 @@ iabbrev beginnnign beginning
 iabbrev beign being
 iabbrev besdies besides
 iabbrev betwen between
+iabbrev beteween between
 iabbrev billtion billion
 iabbrev biler boiler
 iabbrev bookelt booklet
@@ -573,12 +575,14 @@ iabbrev Commisisiong Commissioning
 iabbrev commissionign commissioning
 iabbrev ocmmon common
 iabbrev commonlky commonly
+iabbrev comapred compared
 iabbrev competiting competing
 iabbrev compelted completed
 iabbrev compeleted completed
 iabbrev compeletes completes
 iabbrev compoonents components
 iabbrev comrpession compression
+iabbrev comptuer compute
 iabbrev ocnclusions conclusions
 iabbrev conculsions conclusions
 iabbrev ocndenser condenser
@@ -623,6 +627,7 @@ iabbrev curvativure curvature
 iabbrev cusomt custom
 iabbrev cycel cycle
 iabbrev cylce cycle
+iabbrev dialy daily
 iabbrev Dallsa Dallas
 iabbrev datapoints data points
 iabbrev decreaesed decreased
@@ -659,6 +664,7 @@ iabbrev sdiscern discern
 iabbrev disply display
 iabbrev distercit district
 iabbrev dirunal diurnal
+iabbrev docuemnt document
 iabbrev doen done
 iabbrev Downtonw Downtown
 iabbrev dorp drop
@@ -670,7 +676,9 @@ iabbrev efficienty efficiency
 iabbrev effortr effort
 iabbrev electiricyt electricity
 iabbrev electricay electricity
+iabbrev electriciyt electricity
 iabbrev elswe else
+iabbrev emial email
 iabbrev ned end
 iabbrev endevor endeavor
 iabbrev ENergy Energy
@@ -850,6 +858,7 @@ iabbrev makr mark
 iabbrev materla material
 iabbrev mathematica Mathematica
 iabbrev maximimum maximum
+iabbrev measuresed measured
 iabbrev measuremnets measurements
 iabbrev measuremnts measurements
 iabbrev mechanicla mechanical
@@ -1031,6 +1040,7 @@ iabbrev reasearch research
 iabbrev resistnace resistance
 iabbrev respcet respect
 iabbrev respecdt respect
+iabbrev restul result
 iabbrev resutls results
 iabbrev retun return
 iabbrev Reveiew Review
@@ -1309,6 +1319,7 @@ iabbrev uints units
 iabbrev lunits units
 iabbrev unikts units
 iabbrev useufl useful
+iabbrev usfeul useful
 iabbrev usefullness usefulness
 iabbrev usingn using
 iabbrev uitlilty utility
