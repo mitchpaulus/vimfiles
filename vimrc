@@ -382,6 +382,7 @@ autocmd!
 autocmd FileType markdown nnoremap <silent> <leader>h1 :<c-u>call <SID>MakeHeading("=")<cr>
 autocmd FileType markdown nnoremap <silent> <leader>h2 :<c-u>call <SID>MakeHeading("-")<cr>
 autocmd FileType markdown,tex,text set textwidth=72
+autocmd FileType markdown,tex,text set spell
 autocmd FileType tex inoremap %%% \% 
 autocmd FileType tex nnoremap [e ?\\begin{equation}<cr>:nohlsearch<cr>
 autocmd FileType tex nnoremap ]e /\\begin{equation}<cr>:nohlsearch<cr>
