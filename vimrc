@@ -12,21 +12,22 @@ if has('unix')
     call vundle#begin()
 endif
 
-Plugin 'easymotion/vim-easymotion'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'lervag/vimtex'
-Plugin 'godlygeek/tabular'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'godlygeek/tabular'
+Plugin 'lervag/vimtex'
+Plugin 'mitchpaulus/latex-plus'
+Plugin 'mitchpaulus/vim-siemens-pplc'
+Plugin 'mitchpaulus/vim-tex2text'
+Plugin 'qpkorr/vim-bufkill'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
 Plugin 'sickill/vim-monokai'
 Plugin 'SirVer/ultisnips'
-Plugin 'scrooloose/nerdtree'
-Plugin 'mitchpaulus/latex-plus'
-Plugin 'tpope/vim-fugitive'
 Plugin 'sjl/gundo.vim'
-Plugin 'scrooloose/nerdcommenter'
+Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
-Plugin 'qpkorr/vim-bufkill'
-Plugin 'mitchpaulus/vim-tex2text'
 
 call vundle#end()            " required for Vundle
 filetype plugin indent on    " required for Vundle
@@ -723,6 +724,7 @@ iabbrev Figurte Figure
 iabbrev fiel file
 iabbrev finsih finish
 iabbrev Finsihed Finished
+iabbrev fiinished finished
 iabbrev ifxes fixes
 iabbrev lfow flow
 iabbrev flolw flow
@@ -1349,6 +1351,7 @@ iabbrev owkr work
 iabbrev WOrking Working
 iabbrev Wroking Working
 iabbrev workign working
+iabbrev Woriking Working
 iabbrev woudl would
 iabbrev owuld would
 iabbrev zerio zero
