@@ -242,6 +242,25 @@ set ttyfast
 set spelllang=en_us
 set spellsuggest=10
 
+function! s:SetSpellToHVACFile()
+    if &l:spellfile==?""
+        if has('win32')
+            echom "Tried to set spellfile"
+            setlocal spellfile=~\vimfiles\spell\hvac.utf-8.add
+        endif
+        if has('unix') 
+            setlocal spellfile=~/.vim/spell/hvac.utf-8.add
+        endif
+    else 
+        echom "Cleared spellfile"
+        setlocal spellfile=
+    endif
+    echom &l:spellfile
+endfunction
+
+" Map to function to get [h]vac [s]pell file. 
+nnoremap <leader>hs :<c-u>call <SID>SetSpellToHVACFile()<cr>
+
 if has("gui_running")
   if has("gui_gtk2")
     set guifont=Inconsolata\ 12
