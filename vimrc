@@ -632,6 +632,7 @@ iabbrev contributrion contribution
 iabbrev contirbutors contributors
 iabbrev contorl control
 iabbrev Cotnrl Control
+iabbrev contrlled controlled
 iabbrev Contrls Controls
 iabbrev ocntrosl controls
 iabbrev convensition convention
@@ -781,6 +782,7 @@ iabbrev formulats formulas
 iabbrev Foiruier Fourier
 iabbrev fule fuel
 iabbrev fullfill fulfill
+iabbrev fulll full
 iabbrev funciton function
 iabbrev fucntion function
 iabbrev functdion function
@@ -808,6 +810,7 @@ iabbrev helpuful helpful
 iabbrev hree: here:
 iabbrev hiddne hidden
 iabbrev hgiher higher
+iabbrev hgihlighting highlighting
 iabbrev hikstorical historical
 iabbrev HOliddays Holidays
 iabbrev horizonatal horizontal
@@ -857,6 +860,7 @@ iabbrev interanl internal
 iabbrev intenral internal
 iabbrev interla internal
 iabbrev itnerla internal
+iabbrev interpoleated interpolated
 iabbrev internavl interval
 iabbrev inot into
 iabbrev Introduciton Introduction
@@ -966,6 +970,7 @@ iabbrev otudoor outdoor
 iabbrev outelt outlet
 iabbrev Outolok Outlook
 iabbrev ouptut output
+iabbrev outup output
 iabbrev aprameter parameter
 iabbrev pareameters parameters
 iabbrev parametesr parameters
