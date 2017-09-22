@@ -215,7 +215,7 @@ nnoremap <c-n> :bn<cr>
 
 " General Settings/Options {{{1
 "Custom Status Line
-set statusline=File:%F,\ FT:%y,C:%c,%p%%\ %{fugitive#statusline()}
+set statusline=File:%.50F,\ FT:%y,C:%c,%p%%,HEX:%B\ %{fugitive#statusline()}
 
 set hlsearch   " highlight search
 set incsearch  " highlight temporary searches
