@@ -221,15 +221,13 @@ set hlsearch   " highlight search
 set incsearch  " highlight temporary searches
 set rnu        " Relative line numbering
 set number     " Show the current line number
-set cursorline 
+set cursorline
 set encoding=utf-8
                                " set ignorecase                                                  " ignorecase on searching
 set backspace=indent,eol,start " Want backspaces to always work as normal.
 set scrolloff=2                " Want two lines above and below cursor when scrolling.
 set smartcase                  " Use smartcase
 set laststatus=2               " Always show the statusbar
-set lines=9999                 " Show 75 lines on default opening.
-set columns=110                " Show 90 columns on default opening.
 set nowrap                     " No word wrap.
 set lbr                        " Want line breaks at whitespace
 set tabstop=4                  " show existing tab with 4 spaces width
@@ -241,6 +239,18 @@ set lazyredraw
 set ttyfast
 set spelllang=en_us
 set spellsuggest=10
+
+if has('gui_running')
+    set lines=9999                 " Show 75 lines on default opening.
+    set columns=110                " Show 90 columns on default opening.
+else
+    set background=light
+    colorscheme solarized
+endif
+
+if &term =~? '256color'
+    " set t_ut=
+endif
 
 function! s:SetSpellToHVACFile()
     if &l:spellfile==?""
