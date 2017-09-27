@@ -1070,6 +1070,7 @@ iabbrev questionaire questionnaire
 iabbrev quesitons questions
 iabbrev reaised raised
 iabbrev rasing raising
+iabbrev reange range
 iabbrev artes rates
 iabbrev artio ratio
 iabbrev reasonlabe reasonable
