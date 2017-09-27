@@ -457,6 +457,7 @@ iabbrev addresssed addressed
 iabbrev addsd adds
 iabbrev adeqauyate adequate
 iabbrev adopeted adopted
+iabbrev adviosr advisor
 iabbrev Ari Air
 iabbrev ahir air
 iabbrev iar air
@@ -474,6 +475,7 @@ iabbrev anlayiss analysis
 iabbrev anlaysis analysis
 iabbrev anaylytically analytically
 iabbrev alnaalyze analyze
+iabbrev anlayzing analyzing
 iabbrev anscestors ancestors
 iabbrev Adn And
 iabbrev adn and
@@ -490,6 +492,7 @@ iabbrev Applicaiton Application
 iabbrev Applicaitons Applications
 iabbrev apploied applied
 iabbrev applky apply
+iabbrev paply apply
 iabbrev appraoch approach
 iabbrev approahc approach
 iabbrev approriate appropriate
@@ -658,6 +661,7 @@ iabbrev correspongin corresponding
 iabbrev correspoinds corresponds
 iabbrev coiuld could
 iabbrev coures course
+iabbrev creatd created
 iabbrev credites credits
 iabbrev creiterion criterion
 iabbrev crediterion criterion
@@ -666,6 +670,7 @@ iabbrev curvativure curvature
 iabbrev cusomt custom
 iabbrev cycel cycle
 iabbrev cylce cycle
+iabbrev cyclie cycle
 iabbrev dialy daily
 iabbrev Dallsa Dallas
 iabbrev datapoints data points
@@ -700,8 +705,10 @@ iabbrev difficutl difficult
 iabbrev directins directions
 iabbrev driectly directly
 iabbrev direclty directly
+iabbrev dissagregate disaggregate
 iabbrev sdiscern discern
 iabbrev disply display
+iabbrev dissertaiton dissertation
 iabbrev distercit district
 iabbrev dirunal diurnal
 iabbrev docuemnt document
@@ -710,6 +717,7 @@ iabbrev Downtonw Downtown
 iabbrev downotown downtown
 iabbrev dorp drop
 iabbrev diuct duct
+iabbrev Ediston Edison
 iabbrev effectiley effectively
 iabbrev effectes effects
 iabbrev efficicency efficiency
@@ -721,6 +729,7 @@ iabbrev electiricyt electricity
 iabbrev electricay electricity
 iabbrev electriciyt electricity
 iabbrev electircity electricity
+iabbrev eelctricy electricity
 iabbrev elswe else
 iabbrev emial email
 iabbrev ned end
@@ -748,6 +757,7 @@ iabbrev Equipemnt Equipment
 iabbrev eerror error
 iabbrev Especailly Especially
 iabbrev eestimate estimate
+iabbrev esitmate estimate
 iabbrev estitamed estimated
 iabbrev estiamted estimated
 iabbrev esitmating estimating
@@ -818,6 +828,7 @@ iabbrev hvae have
 iabbrev heaitng heating
 iabbrev heaint heating
 iabbrev ehating heating
+iabbrev heaing heating
 iabbrev helpuful helpful
 iabbrev hree: here:
 iabbrev hiddne hidden
@@ -858,11 +869,13 @@ iabbrev inoformation information
 iabbrev inofrmation information
 iabbrev inital initial
 iabbrev intial initial
+iabbrev intiial initial
 iabbrev intitiating initiating
 iabbrev inelt inlet
 iabbrev linet inlet
 iabbrev insentive insensitive
 iabbrev insensivitve insensitive
+iabbrev insated instead
 iabbrev Institutue Institute
 iabbrev insturction instruction
 iabbrev Integratign Integrating
@@ -893,6 +906,7 @@ iabbrev leanring learning
 iabbrev Leanring Learning
 iabbrev LIbrary Library
 iabbrev librayr library
+iabbrev lgighting lighting
 iabbrev limitaiton limitation
 iabbrev olimitations limitations
 iabbrev lienar linear
@@ -914,14 +928,17 @@ iabbrev mathematica Mathematica
 iabbrev maximimum maximum
 iabbrev menaing meaning
 iabbrev measuresed measured
+iabbrev maesured measured
 iabbrev measuremnets measurements
 iabbrev measuremnts measurements
 iabbrev mechanicla mechanical
 iabbrev memeter meter
 iabbrev mehtod method
+iabbrev methodoloyg methodology
 iabbrev Mniiimzie Minimize
 iabbrev mimnimum minimum
 iabbrev Mintue Minute
+iabbrev mintue minute
 iabbrev mintues minutes
 iabbrev minxing mixing
 iabbrev maixing mixing
@@ -935,9 +952,11 @@ iabbrev modifeid modified
 iabbrev moels moles
 iabbrev montiors monitors
 iabbrev montly monthly
+iabbrev montyhly monthly
 iabbrev mroe more
 iabbrev moring morning
 iabbrev moter motor
+iabbrev multiopleyer multiplier
 iabbrev namign naming
 iabbrev enearsets nearest
 iabbrev enearest nearest
@@ -1024,6 +1043,7 @@ iabbrev possilbities possibilities
 iabbrev possilbe possible
 iabbrev potentila potential
 iabbrev potentail potential
+iabbrev ptoentail potential
 iabbrev ptotently potentially
 iabbrev pwoer power
 iabbrev pwoered powered
@@ -1067,6 +1087,8 @@ iabbrev quaklity quality
 iabbrev Quantificaitons Quantifications
 iabbrev qunaittites quantities
 iabbrev questionaire questionnaire
+iabbrev questionanaire questionnaire
+iabbrev Qeustionaaire Questionnaire
 iabbrev quesitons questions
 iabbrev reaised raised
 iabbrev rasing raising
@@ -1079,6 +1101,7 @@ iabbrev resaonable reasonable
 iabbrev reasonalbly reasonably
 iabbrev recieve receive
 iabbrev recoginition recognition
+iabbrev reduciton reduction
 iabbrev referecne reference
 iabbrev refrigeratant refrigerant
 iabbrev refigerator refrigerator
@@ -1162,6 +1185,7 @@ iabbrev singlue single
 iabbrev lslides slides
 iabbrev sloep slope
 iabbrev samrt smart
+iabbrev softweare software
 iabbrev Soldi Solid
 iabbrev soultin solution
 iabbrev solutio solution
@@ -1391,11 +1415,14 @@ iabbrev untis units
 iabbrev uints units
 iabbrev lunits units
 iabbrev unikts units
+iabbrev unnits units
 iabbrev useufl useful
 iabbrev usfeul useful
 iabbrev usefullness usefulness
 iabbrev usingn using
 iabbrev uitlilty utility
+iabbrev Uiltity Utility
+iabbrev utiltiy utility
 iabbrev vcacuum vacuum
 iabbrev vaccum vacuum
 iabbrev vlaue value
