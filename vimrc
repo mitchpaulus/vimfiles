@@ -54,11 +54,11 @@ noremap <Leader>w :w<CR>
 noremap <leader>q :q<cr>
 " Really quit
 noremap <leader>Q :q!<cr>
-" Yank line without newlines
+" [Y]ank [l]ine without newlines
 nnoremap yl ^y$
-" Delete line without newlines
+" [D]elete [l]ine without newlines
 nnoremap dl ^d$
-" Change line without newlines
+" [C]hange [l]ine without newlines
 nnoremap cl ^c$
 " Insert [t]oday's [d]ate
 nnoremap <leader>td i<c-r>=strftime('%Y-%m-%d')<cr> 
@@ -66,6 +66,9 @@ nnoremap <leader>td i<c-r>=strftime('%Y-%m-%d')<cr>
 inoremap <c-d> <c-r>=strftime('%Y-%m-%d')<cr> 
 " Quickly enter in ² symbol
 inoremap ^2 <c-v>178
+" Quickly enter ft².
+inoremap ft2 ft<c-v>178
+
 " Quickly eneter in °F
 inoremap DEGF °F
 
