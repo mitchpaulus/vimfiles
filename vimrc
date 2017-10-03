@@ -367,6 +367,8 @@ let g:ctrlp_by_filename = 1
 " Chose <c-y> because it is analogous to ctrl-p but with the pointer
 " finger
 nnoremap <c-y> :CtrlPBuffer<cr>
+" Chose <c-u> for most recently [u]sed
+nnoremap <c-u> :CtrlPMRU<cr>
 
 " MISC {{{1
 
