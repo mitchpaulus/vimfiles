@@ -232,8 +232,8 @@ if has('gui_running')
     set lines=9999                 " Show 75 lines on default opening.
     set columns=110                " Show 90 columns on default opening.
 else
-    set background=light
-    colorscheme solarized
+    "set background=light
+    "colorscheme solarized
 endif
 
 if &term =~? '256color'
@@ -418,18 +418,3 @@ autocmd BufRead *.cshtml set filetype=html
 " Save when losing focus, thanks SJL
 autocmd BufLeave * :silent! w
 augroup END
-
-
-" Autocorrect Mappings {{{1
-"This is a mapping just for the vimrc to sort the abbreviations, case
-"insensitively. Sort operates on characters after match by default.
-"|||||||||||||||||||++++++++++++++++++++++++++++------------------------------------- Search for commented line 'Autocorrect Mappings'
-"|||||||||||||||||||||||||||||||||||||||||||||||+------------------------------------ Move down one line
-"||||||||||||||||||||||||||||||||||||||||||||||||++++++++++++------------------------ Sort command from beginning of iabbrevs, should be right after heading.
-"||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||++++++------------------ 1 or more any characters, non-greedy.
-"||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||++---------------- whitespace
-"||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||++++++---------- 1 or more any characters, non-greedy
-"||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||+++------- whitespace
-"||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||+----- case insensitive 
-"|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||++++- Enter the Ex Command
-nnoremap <leader>sa /\v^"Autocorrect Mappings<cr>j:.,$sort /\v.{-1,}\s.{-1,}\s/ i<cr>
