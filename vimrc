@@ -229,6 +229,13 @@ set ttyfast
 set spelllang=en_us
 set spellsuggest=10
 
+set sessionoptions=buffers,curdir,winpos,winsize
+set list
+set listchars=tab:▸\ ,eol:¬
+
+" Don't try to highlight lines longer than 100 chars (from sjl)
+set synmaxcol=200
+
 if has('gui_running')
     set lines=9999                 " Show 75 lines on default opening.
     set columns=110                " Show 90 columns on default opening.
@@ -357,7 +364,22 @@ filetype plugin indent on
 let g:vimtex_view_enabled = 0
 let g:tex_flavor="latex"
 let g:vimtex_quickfix_latexlog = {'overfull': 0, 'underfull':0}
-
+let g:vimtex_compiler_latexmk = {
+            \ 'backend' : 'jobs',
+            \ 'background' : 1,
+            \ 'build_dir' : '',
+            \ 'callback' : 1,
+            \ 'continuous' : 1,
+            \ 'executable' : 'latexmk',
+            \ 'options' : [
+            \   '-pdf',
+            \   '-verbose',
+            \   '-file-line-error',
+            \   '-synctex=0',
+            \   '-interaction=nonstopmode',
+            \ ],
+            \}
+"
 " Ctrl-P {{{2
 " For CTRL-P
 let g:ctrlp_mruf_exclude = '.*log\|.*aux\|.*tmp\|.*\\.git\\.*' " Windows
