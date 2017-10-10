@@ -45,10 +45,10 @@ endif
 nnoremap <leader>ue :UltiSnipsEdit<cr>
 
 " General Mappings {{{1
-"Use space key for leader, but actually use default leader so it shows up in
-"status bar.
+" Use space key for leader, but actually use default leader so it shows up in
+" status bar.
 map <space> <leader>
-
+let maplocalleader=","
 "Fast saving
 noremap <Leader>w :w<CR>
 " Fast quitting
