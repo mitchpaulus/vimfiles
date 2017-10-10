@@ -136,7 +136,7 @@ nnoremap <silent> [B :bfirst<CR>
 nnoremap <silent> ]B :blast<CR>
 
 "Mapping to make current word in insert/normal mode capitalized. See Modal Mapping Vimscript the Hard Way.
-inoremap <leader><c-u> <esc>hviwUea
+"inoremap <leader><c-u> <esc>hviwUea
 nnoremap <leader><c-u> viwU
 
 cnoremap <C-p> <Up>
