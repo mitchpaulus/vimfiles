@@ -91,6 +91,8 @@ vnoremap b i{
 vnoremap tc v?^\<bar>&<cr>wms/&\<bar>\\\\<cr>:nohlsearch<cr>gEv`s
 onoremap tc :<c-u>execute 'normal! ?^\<bar>&' . "\r" . 'wms/&\<bar>\\\\' . "\r:nohlsearch\rgEv`s"<cr>
 
+" Change paste settings 
+nnoremap <leader>sp :<c-u>set paste!<cr>:set paste?<cr>
 
 " Quickly change present working directory to 
 " the current files directory.
