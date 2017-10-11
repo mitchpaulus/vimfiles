@@ -12,6 +12,7 @@ if has('unix')
     call vundle#begin()
 endif
 
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'easymotion/vim-easymotion'
@@ -226,7 +227,7 @@ set spelllang=en_us
 set spellsuggest=10
 
 set sessionoptions=buffers,curdir,winpos,winsize
-set list
+set nolist
 set listchars=tab:▸\ ,eol:¬
 
 " Don't try to highlight lines longer than 100 chars (from sjl)
@@ -437,3 +438,10 @@ autocmd BufRead *.cshtml set filetype=html
 " Save when losing focus, thanks SJL
 autocmd BufLeave * :silent! w
 augroup END
+
+" [S]ession [w]rite
+nnoremap <leader>sw :mksession! ~/defaultsession.vim<cr>
+" [S]ession [l]oad
+nnoremap <leader>sl :so ~/defaultsession.vim<cr>
+" Toggle list setting
+nnoremap <leader>ll :set list!<cr>
