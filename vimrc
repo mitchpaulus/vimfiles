@@ -351,7 +351,7 @@ syntax enable
 if has('gui_running') 
     let g:solarized_termcolors=256
     let g:solarized_termtrans=0
-    colorscheme solarized
+    silent! colorscheme solarized
     "colorscheme monokai
 endif
 
