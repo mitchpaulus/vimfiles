@@ -230,6 +230,12 @@ set sessionoptions=buffers,curdir,winpos,winsize
 set nolist
 set listchars=tab:▸\ ,eol:¬
 
+if has('win32')
+    set directory^=$HOME/vimfiles/tmp//
+elseif has('unix')
+    set directory^=$HOME/.vim/tmp//
+endif
+
 " Don't try to highlight lines longer than 100 chars (from sjl)
 set synmaxcol=200
 
