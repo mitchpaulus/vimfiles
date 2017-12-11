@@ -229,6 +229,9 @@ set spellsuggest=10
 set sessionoptions=buffers,curdir,winpos,winsize
 set nolist
 set listchars=tab:▸\ ,eol:¬
+set guioptions-=e
+set guioptions-=L
+set guioptions-=R
 
 if has('win32')
     set directory^=$HOME/vimfiles/tmp//
