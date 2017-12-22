@@ -52,6 +52,8 @@ noremap <Leader>w :w<CR>
 noremap <leader>q :q<cr>
 " Really quit
 noremap <leader>Q :q!<cr>
+" [Y]ank entire file to clipboard.
+nnoremap <leader>y :<c-u>%yank *<cr>
 " [Y]ank [l]ine without newlines
 nnoremap yl ^y$
 " [D]elete [l]ine without newlines
@@ -78,7 +80,9 @@ vnoremap p i(
 
 onoremap b i{
 onoremap in{ :<c-u>execute "normal! /{\r:nohlsearch\rvi{"<cr>
+onoremap inb :<c-u>execute "normal! /{\r:nohlsearch\rvi{"<cr>
 onoremap il{ :<c-u>execute "normal! ?{\r:nohlsearch\rvi{"<cr>
+onoremap ilb :<c-u>execute "normal! ?{\r:nohlsearch\rvi{"<cr>
 vnoremap b i{
 
 " Visually select inside latex table cell, first go back to last 
@@ -238,6 +242,7 @@ if has('win32')
 elseif has('unix')
     set directory^=$HOME/.vim/tmp//
 endif
+set noswapfile
 
 " Don't try to highlight lines longer than 100 chars (from sjl)
 set synmaxcol=200
