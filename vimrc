@@ -15,7 +15,6 @@ endif
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'easymotion/vim-easymotion'
 Plugin 'godlygeek/tabular'
 Plugin 'lervag/vimtex'
 Plugin 'qpkorr/vim-bufkill'
@@ -84,6 +83,9 @@ onoremap inb :<c-u>execute "normal! /{\r:nohlsearch\rvi{"<cr>
 onoremap il{ :<c-u>execute "normal! ?{\r:nohlsearch\rvi{"<cr>
 onoremap ilb :<c-u>execute "normal! ?{\r:nohlsearch\rvi{"<cr>
 vnoremap b i{
+
+" Copy file to clipboard (d for duplicate)
+nnoremap <leader>d ggVG"*y
 
 " Visually select inside latex table cell, first go back to last 
 " & or beginning of line, mark to s, then go to next & or end of line \\
@@ -197,8 +199,9 @@ nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 nnoremap <c-c> <c-w>c
 nnoremap <c-d> :BD<cr> " Delete buffer using the qpkorr/vim-bufkill package.
-
 nnoremap <c-s> [s  " Move backwards in spell check.
+nnoremap <kPlus> <c-w>+
+nnoremap <kMinus> <c-w>-
 
 nnoremap <c-n> :bn<cr>
 " nnoremap <leader>j <c-w>j
