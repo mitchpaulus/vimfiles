@@ -209,7 +209,7 @@ nnoremap <c-n> :bn<cr>
 
 " General Settings/Options {{{1
 "Custom Status Line
-set statusline=File:%.50F,\ FT:%y,C:%c,%p%%,HEX:%B,%{&ff},%{&encoding},%{fugitive#statusline()}
+set statusline=File:%.50F,\ FT:%y,C:%c,%p%%,HEX:%B,%{&ff},%{&encoding}
 set hlsearch   " highlight search
 set incsearch  " highlight temporary searches
 set rnu        " Relative line numbering
