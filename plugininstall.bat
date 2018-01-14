@@ -1,3 +1,7 @@
+IF "%HOME%"=="" (
+    ECHO Home variable is not set
+    EXIT
+)
 mkdir %HOME%\vimfiles\pack\mitchplugins\start
 cd %HOME%\vimfiles\pack\mitchplugins\start
 git clone https://github.com/mitchpaulus/vim-siemens-ppcl.git
@@ -13,4 +17,3 @@ ELSE (
         cd %HOME%\vimfiles\bundle
         git clone https://github.com/VundleVim/Vundle.vim.git
      )
-
