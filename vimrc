@@ -452,8 +452,6 @@ augroup eventtypemappings
 autocmd!
 " cshtml - html - close enough 
 autocmd BufRead *.cshtml set filetype=html
-" Save when losing focus, thanks SJL
-autocmd BufLeave * :silent! w
 augroup END
 
 " [S]ession [w]rite
