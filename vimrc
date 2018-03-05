@@ -71,6 +71,10 @@ inoremap ft2 ft<c-v>178
 " Quickly eneter in °F
 inoremap DEGF °F
 
+" Compile Pandoc 
+nnoremap <leader>pc :silent !pandoc -o %:p:r.pdf %:p<cr>
+
+
 " From Vimscript the Hard Way chap 15
 onoremap p i(
 onoremap in( :<c-u>execute "normal! /(\r:nohlsearch\rvi("<cr>
@@ -209,7 +213,7 @@ nnoremap <c-n> :bn<cr>
 
 " General Settings/Options {{{1
 "Custom Status Line
-set statusline=File:%.50F,\ FT:%y,C:%c,%p%%,HEX:%B,%{&ff},%{&encoding}
+set statusline=File:%.70F,\ FT:%y,C:%c,%p%%,HEX:%B,%{&ff},%{&encoding}
 set hlsearch   " highlight search
 set incsearch  " highlight temporary searches
 set rnu        " Relative line numbering
