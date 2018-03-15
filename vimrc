@@ -154,7 +154,7 @@ cnoremap <C-f> <Right>
 "Use jk to escape insert mode. Suggested here:
 "http://learnvimscriptthehardway.stevelosh.com/chapters/10.html
 inoremap jk <esc>
-nnoremap <TAB> }
+nnoremap <TAB> <PageDown>zz
 
 " Quick mappings for the beginning and ends of lines
 noremap H ^
