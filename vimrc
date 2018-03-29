@@ -65,11 +65,10 @@ nnoremap <leader>td i<c-r>=strftime('%Y-%m-%d')<cr>
 inoremap <c-d> <c-r>=strftime('%Y-%m-%d')<cr> 
 " Quickly enter in ² symbol
 inoremap ^2 <c-v>178
-" Quickly enter ft².
-inoremap ft2 ft<c-v>178
-
 " Quickly eneter in °F
 inoremap DEGF °F
+" stay on current search
+nnoremap * *N
 
 " Compile Pandoc 
 nnoremap <leader>pc :silent !pandoc -o %:p:r.pdf %:p<cr>
@@ -374,6 +373,8 @@ if has('gui_running')
     let g:solarized_termtrans=0
     silent! colorscheme solarized
     "colorscheme monokai
+else
+    colorscheme desert
 endif
 
 " Vimtex {{{2
