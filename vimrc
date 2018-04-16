@@ -63,6 +63,9 @@ nnoremap cl ^c$
 nnoremap <leader>td i<c-r>=strftime('%Y-%m-%d')<cr> 
 " Insert today's c-[d]ate
 inoremap <c-d> <c-r>=strftime('%Y-%m-%d')<cr> 
+" Insert today's date, never used ctrl-t in command mode.
+cnoremap <c-t> <c-r>=strftime('%Y-%m-%d')<cr>
+
 " Quickly enter in ² symbol
 inoremap ^2 <c-v>178
 " Quickly eneter in °F
