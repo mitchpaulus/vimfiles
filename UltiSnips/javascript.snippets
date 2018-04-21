@@ -4,16 +4,22 @@ if (${1:condition}) {
 }
 endsnippet
 
-snippet func "basic function" 
-function ($1) {
-    $2
+snippet func "basic function"
+function ${1:functionname}($2) {
+    $3
 }
 endsnippet
 
-snippet ajax "jQuery ajax" 
+snippet ajax "jQuery ajax"
 $.ajax(${1:url}, {
     data: ${2:data},
 	error: ${3:error},
 	complete: ${4:complete},
 })
+endsnippet
+
+snippet for
+for (${1:i} = ${2:0}; $1 < $3; $1++) {
+    $4
+}
 endsnippet
