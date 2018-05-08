@@ -455,6 +455,7 @@ autocmd FileType tex nnoremap [e ?\\begin{equation}<cr>:nohlsearch<cr>
 autocmd FileType tex nnoremap ]e /\\begin{equation}<cr>:nohlsearch<cr>
 autocmd FileType bib command! CleanBib call <SID>CleanBibFile()
 autocmd FileType gnuplot nnoremap <localleader>g :silent !gnuplot.exe % && start "Plot" %:p:r.png<cr>
+autocmd FileType gnuplot nnoremap <localleader>k :silent !taskkill.exe /IM Microsoft.Photos.exe /F<cr>
 augroup END
 
 " Event Type Autocmd mappings {{{1
