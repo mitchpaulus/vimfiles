@@ -65,9 +65,8 @@ nnoremap <leader>td i<c-r>=strftime('%Y-%m-%d')<cr>
 inoremap <c-d> <c-r>=strftime('%Y-%m-%d')<cr> 
 " Insert today's date, never used ctrl-t in command mode.
 cnoremap <c-t> <c-r>=strftime('%Y-%m-%d')<cr>
-
-" Quickly eneter in °F
-inoremap DEGF °F
+" Copy to clipboard
+vnoremap <localleader>c "*y
 " stay on current search
 nnoremap * *N
 
@@ -454,6 +453,10 @@ autocmd FileType tex nnoremap ]e /\\begin{equation}<cr>:nohlsearch<cr>
 autocmd FileType bib command! CleanBib call <SID>CleanBibFile()
 autocmd FileType gnuplot nnoremap <localleader>g :silent !gnuplot.exe % && start "Plot" %:p:r.png<cr>
 autocmd FileType gnuplot nnoremap <localleader>k :silent !taskkill.exe /IM Microsoft.Photos.exe /F<cr>
+" Quickly enter in ² symbol
+autocmd FileType markdown,text inoremap ^2 <c-v>178
+" Quickly enter in °F
+autocmd FileType markdown,text inoremap DEGF °F
 augroup END
 
 " Event Type Autocmd mappings {{{1
