@@ -149,6 +149,7 @@ cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
 cnoremap <C-b> <Left>
 cnoremap <C-f> <Right>
+cnoremap <C-a> <C-b>
 
 "Use jk to escape insert mode. Suggested here:
 "http://learnvimscriptthehardway.stevelosh.com/chapters/10.html
@@ -236,6 +237,7 @@ set ttyfast
 set spelllang=en_us
 set spellsuggest=10
 set hidden
+set nowrapscan
 
 set sessionoptions=buffers,curdir,winpos,winsize
 set nolist
