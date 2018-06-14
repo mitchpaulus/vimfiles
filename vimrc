@@ -237,7 +237,6 @@ set ttyfast
 set spelllang=en_us
 set spellsuggest=10
 set hidden
-set nowrapscan
 
 set sessionoptions=buffers,curdir,winpos,winsize
 set nolist
