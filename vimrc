@@ -160,7 +160,7 @@ nnoremap <TAB> <PageDown>zz
 noremap H ^
 noremap L $
 
-" Want cntrl-backspace to delete whole word in insert mode
+" Want ctrl-backspace to delete whole word in insert mode
 inoremap <C-BS> <C-W>
 
 xnoremap * :<C-u>call <SID>VSetSearch()<CR>/<C-R>=@/<CR><CR>
@@ -202,12 +202,18 @@ nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 nnoremap <c-c> <c-w>c
-nnoremap <c-d> :BD<cr> " Delete buffer using the qpkorr/vim-bufkill package.
-nnoremap <c-s> [s  " Move backwards in spell check.
+ " Delete buffer using the qpkorr/vim-bufkill package.
+nnoremap <c-d> :BD<cr>
+ " Move backwards in spell check.
+nnoremap <c-s> [s
 nnoremap <kPlus> <c-w>+
 nnoremap <kMinus> <c-w>-
 
 nnoremap <c-n> :bn<cr>
+
+" Emulate bash in insert mode.
+inoremap <c-e> <c-o>$
+inoremap <c-a> <c-o>^
 " nnoremap <leader>j <c-w>j
 " nnoremap <leader>k <c-w>k
 
