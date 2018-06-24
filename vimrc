@@ -204,8 +204,8 @@ nnoremap <c-l> <c-w>l
 nnoremap <c-c> <c-w>c
  " Delete buffer using the qpkorr/vim-bufkill package.
 nnoremap <c-d> :BD<cr>
- " Move backwards in spell check.
-nnoremap <c-s> [s
+ " Move backwards in spell check. T is 'backwards til' and I never use it.
+nnoremap T [s
 nnoremap <kPlus> <c-w>+
 nnoremap <kMinus> <c-w>-
 
