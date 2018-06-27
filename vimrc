@@ -60,9 +60,9 @@ nnoremap dl ^d$
 " [C]hange [l]ine without newlines
 nnoremap cl ^c$
 " Insert [t]oday's [d]ate
-nnoremap <leader>td i<c-r>=strftime('%Y-%m-%d')<cr> 
+nnoremap <leader>td i<c-r>=strftime('%Y-%m-%d')<cr>
 " Insert today's c-[d]ate
-inoremap <c-d> <c-r>=strftime('%Y-%m-%d')<cr> 
+inoremap <c-d> <c-r>=strftime('%Y-%m-%d')<cr>
 " Insert today's date, never used ctrl-t in command mode.
 cnoremap <c-t> <c-r>=strftime('%Y-%m-%d')<cr>
 " Copy to clipboard
