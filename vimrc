@@ -69,6 +69,8 @@ cnoremap <c-t> <c-r>=strftime('%Y-%m-%d')<cr>
 vnoremap <localleader>c "*y
 " stay on current search
 nnoremap * *N
+" Make Enter useful
+nnoremap <cr> o<esc>
 
 " Compile Pandoc 
 nnoremap <leader>pc :silent !pandoc -o %:p:r.pdf %:p<cr>
@@ -445,15 +447,18 @@ function! s:CleanBibFile()
     %s/title\s*=\s*{\s*{\(.*\)}\s*}/title = {\1}/
 endfunction
 
+let g:AutocorrectFiletypes = ["markdown", "tex", "text"]
+
 augroup filetypemappings
 autocmd!
 " make a header 1 line, deleting trailing whitespace first.
 autocmd FileType markdown nnoremap <silent> <leader>h1 :<c-u>call <SID>MakeHeading("=")<cr>
 autocmd FileType markdown nnoremap <silent> <leader>h2 :<c-u>call <SID>MakeHeading("-")<cr>
-autocmd FileType markdown,tex,text set textwidth=72
-autocmd FileType markdown,tex,text set spell
+autocmd FileType markdown,tex,text setlocal textwidth=72
+autocmd FileType markdown,tex,text setlocal spell
 autocmd FileType help nnoremap <leader>hh mnA~<esc>`n
 autocmd FileType help nnoremap <leader>hl mn78i=<esc>`n
+autocmd FileType help setlocal nospell
 autocmd FileType tex inoremap %%% \% 
 autocmd FileType tex nnoremap [e ?\\begin{equation}<cr>:nohlsearch<cr>
 autocmd FileType tex nnoremap ]e /\\begin{equation}<cr>:nohlsearch<cr>
