@@ -447,7 +447,7 @@ function! s:CleanBibFile()
     %s/title\s*=\s*{\s*{\(.*\)}\s*}/title = {\1}/
 endfunction
 
-let g:AutocorrectFiletypes = ["markdown", "tex", "text"]
+let g:AutocorrectFiletypes = ["markdown", "tex", "text","gitcommit"]
 
 augroup filetypemappings
 autocmd!
