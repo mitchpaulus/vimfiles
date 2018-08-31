@@ -213,6 +213,9 @@ nnoremap <kMinus> <c-w>-
 
 nnoremap <c-n> :bn<cr>
 
+" Screen gets messed up in WSL when maximizing.
+nnoremap <leader>r :redraw!<cr>
+
 " Emulate bash in insert mode.
 inoremap <c-e> <c-o>$
 inoremap <c-a> <c-o>^
