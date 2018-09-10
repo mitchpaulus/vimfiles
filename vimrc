@@ -157,6 +157,7 @@ cnoremap <C-a> <C-b>
 "http://learnvimscriptthehardway.stevelosh.com/chapters/10.html
 inoremap jk <esc>
 nnoremap <TAB> <PageDown>zz
+nnoremap <S-TAB> <PageUp>zz
 
 " Quick mappings for the beginning and ends of lines
 noremap H ^
