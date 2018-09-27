@@ -473,6 +473,7 @@ autocmd FileType gnuplot nnoremap <localleader>k :silent !taskkill.exe /IM Micro
 autocmd FileType markdown,text inoremap ^2 <c-v>178
 " Quickly enter in °F
 autocmd FileType markdown,text inoremap DEGF °F
+autocmd FileType gitcommit setlocal spell
 augroup END
 
 " Event Type Autocmd mappings {{{1
