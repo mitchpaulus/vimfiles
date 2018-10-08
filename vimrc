@@ -331,10 +331,8 @@ set wildignore+=*.lot
 set wildignore+=*.dvi
 set wildignore+=*.tmp
 set wildignore+=*.synctex.gz
+set wildignore+=node_modules
 
-"Set hyphens and colons to be parts of words. Very useful in latex documents.
-set iskeyword+=-
-set iskeyword+=:
 set noshellslash
 
 " Plugin Specific Options {{{1
