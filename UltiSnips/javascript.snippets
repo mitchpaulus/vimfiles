@@ -23,3 +23,15 @@ for (${1:i} = ${2:0}; $1 < $3; $1++) {
     $4
 }
 endsnippet
+
+snippet comp "knockout computed" i
+ko.computed(($1) => {$2});
+endsnippet
+
+snippet => "arrow function" i
+($1) => {$2}
+endsnippet
+
+snippet pc "pure computed" i
+ko.pureComputed(($1) => {$2});
+endsnippet
