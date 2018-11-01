@@ -331,7 +331,9 @@ set wildignore+=*.lot
 set wildignore+=*.dvi
 set wildignore+=*.tmp
 set wildignore+=*.synctex.gz
-set wildignore+=node_modules
+set wildignore+=*/node_modules/*
+set wildignore+=*/.git/*
+set wildignore+=*/venv/*
 
 set noshellslash
 
