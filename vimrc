@@ -69,8 +69,6 @@ cnoremap <c-t> <c-r>=strftime('%Y-%m-%d')<cr>
 vnoremap <localleader>c "*y
 " stay on current search
 nnoremap * *N
-" Make Enter useful
-nnoremap <cr> o<esc>
 
 " Compile Pandoc 
 nnoremap <leader>pc :silent !pandoc -o %:p:r.pdf %:p<cr>
@@ -306,7 +304,9 @@ if has("gui_running")
   elseif has("gui_macvim")
     set guifont=Menlo\ Regular:h14
   elseif has("gui_win32")
-    set guifont=Consolas:h11:cANSI
+    set guifont=Fira_Code_Retina:h10:cANSI:qDRAFT,Consolas:h11:cANSI
+    set renderoptions=type:directx
+    set encoding=utf-8
   endif
 endif
 
